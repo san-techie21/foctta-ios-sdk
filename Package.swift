@@ -47,6 +47,11 @@ let package = Package(
         // Testing — Point-Free's swift-snapshot-testing for UI snapshot
         // tests (golden-file diffs of SwiftUI banner / preference center).
         .package(url: "https://github.com/pointfreeco/swift-snapshot-testing.git", from: "1.17.0"),
+
+        // Apple Swift-DocC plugin — generates the static API reference
+        // site that gets published to GitHub Pages on each release tag.
+        // See .github/workflows/publish-docc.yml.
+        .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.3.0"),
     ],
     targets: [
         .target(

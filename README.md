@@ -1,5 +1,10 @@
 # FOCTTA iOS SDK
 
+[![DocC reference](https://img.shields.io/badge/docs-DocC-blue)](https://san-techie21.github.io/foctta-ios-sdk/)
+[![SPM compatible](https://img.shields.io/badge/SPM-compatible-brightgreen)](https://swift.org/package-manager/)
+[![Apache 2.0](https://img.shields.io/badge/license-Apache--2.0-lightgrey)](LICENSE)
+
+
 Native consent management + DSAR + grievance + receipt audit for iOS apps. DPDPA / GDPR / CCPA out of the box.
 
 > **Status:** v0.1.0 — wire layer complete, native UI scaffolded, awaiting v1.0 implementation phase. Not yet published. See `packages/sdk-ios/` in the FOCTTA monorepo.
